@@ -1,0 +1,738 @@
+@font-face {
+    font-family: 'Antipasto_extralight';
+    src: url('fonts/Antipasto_extralight.eot');
+    src: url('fonts/Antipasto_extralight.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Antipasto_extralight.woff') format('woff'),
+         url('fonts/Antipasto_extralight.ttf') format('truetype'),
+         url('fonts/Antipasto_extralight.svg#Antipasto_extralight') format('svg');
+    /*font-weight: 300;*/
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CIRPNOVA_D';
+    src: url('fonts/CIRPNOVA_D.eot');
+    src: url('fonts/CIRPNOVA_D.eot?#iefix') format('embedded-opentype'),
+         url('fonts/CIRPNOVA_D.woff') format('woff'),
+         url('fonts/CIRPNOVA_D.ttf') format('truetype'),
+         url('fonts/CIRPNOVA_D.svg#CIRPNOVA_D') format('svg');
+    /*font-weight: 300;*/
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dekar';
+    src: url('fonts/Dekar.eot');
+    src: url('fonts/Dekar.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Dekar.woff') format('woff'),
+         url('fonts/Dekar.ttf') format('truetype'),
+         url('fonts/Dekar.svg#Dekar') format('svg');
+    /*font-weight: 300;*/
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FONTLERO';
+    src: url('fonts/FONTLERO.eot');
+    src: url('fonts/FONTLERO.eot?#iefix') format('embedded-opentype'),
+         url('fonts/FONTLERO.woff') format('woff'),
+         url('fonts/FONTLERO.ttf') format('truetype'),
+         url('fonts/FONTLERO.svg#FONTLERO') format('svg');
+    /*font-weight: 300;*/
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'seperate-webfont';
+    src: url('fonts/seperate-webfont.eot');
+    src: url('fonts/seperate-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/seperate-webfont.woff') format('woff'),
+         url('fonts/seperate-webfont.ttf') format('truetype'),
+         url('fonts/seperate-webfont.svg#seperate-webfont') format('svg');
+    /*font-weight: 300;*/
+    font-style: normal;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+* img {
+	border: none;
+}
+
+body {
+	background: url(../estru/bg_body.png) no-repeat top center #060606;
+	overflow-x: hidden;
+}
+/*------------------------------ INDEX ---------------------------------*/
+header {
+	width: 1000px;
+	height: 308px;
+	/*border: 1px solid red;*/
+	margin: 0px auto 0px auto;
+}
+section#all {
+	width: 1000px;
+	height: auto;
+	border: 1px solid transparent;
+	margin: 0px auto 0px auto;
+}
+
+header div#logo {
+	width: 292px;
+	height: 308px;
+	background: url(../estru/bg_logo.png) no-repeat top center;
+	text-align: center;
+	float: left;
+	margin: -30px 0px 0px 0px;
+}
+header div#logo img {
+	margin: 25px 0px 0px -10px;
+}
+
+header nav {
+	width: 700px;
+	height: 88px;
+	border: 1px solid transparent;
+	margin: 30px 0px 0px 300px;
+}
+header nav ul {
+	list-style: none;
+	margin: 60px 0px 0px 0px;
+}
+header nav ul li {
+	list-style: none;
+	display: inline;
+	margin: 0px 25px 0px 5px;
+}
+header nav ul li a {
+	font-family: Dekar, sans-serif;
+	color: #A28A6E;
+	text-decoration: none;
+	font-size: 21px;
+	padding: 55px 0px 0px 0px;
+}
+header nav ul li a:hover {
+	font-family: Dekar, sans-serif;
+	color: #A28A6E;
+	text-decoration: none;
+	font-size: 21px;
+	padding: 55px 0px 0px 0px;
+	color: #C68D02;
+	background: url(../estru/bg_link_floral.png) no-repeat top center;
+}
+header nav ul li a.active {
+	font-family: Dekar, sans-serif;
+	color: #A28A6E;
+	text-decoration: none;
+	font-size: 21px;
+	padding: 55px 0px 0px 0px;
+	color: #C68D02;
+	background: url(../estru/bg_link_floral.png) no-repeat top center;
+}
+header hr {
+	width: 600px;
+	position: relative;
+	left: 37px;
+	border-color: #A28A6E;	
+	color: #A28A6E;
+	background-color: #A28A6E;
+}
+
+article.duvidas_suges {
+	width: 310px;
+	height: 130x;
+	/*border: 1px solid white;*/
+	background: url(../estru/bg_duvi.png) no-repeat right bottom;
+	margin: 150px 0px 0px 0px;
+	float: left;
+}
+article.duvidas_suges h1 {
+	font-family: CIRPNOVA_D;
+	color: #CC9933;
+	font-size: 38px;
+	font-weight:lighter;
+}
+article.duvidas_suges p {
+	width: 190px;
+}
+article.duvidas_suges a {
+	font-family: Dekar, sans-serif;
+	font-size: 18px;
+	color: #B9A782;
+	text-decoration: none;
+}
+article.duvidas_suges a:hover {
+	text-decoration: underline;
+}
+
+section#banner {
+	width: 786px;
+	height: 412px;
+	/*border: 1px solid white;*/
+	margin: -110px 0px 0px 340px;
+}
+section#banner div.floral_only {
+	width: 237px;
+	height: 62px;
+	margin: 20px 0px 0px 200px;
+	background: url(../estru/floral_banner.png) no-repeat center center;
+}
+article.bella_de_index {
+	width: 1000px;
+	height: 168px;
+	/*border: 1px solid white;*/
+	margin: 150px auto 90px auto;
+	background: url(../estru/bg_bella_de_eventos.png) no-repeat right center;
+}
+article.bella_de_index h1 {
+	font-family: CIRPNOVA_D;
+	color: #CC9933;
+	font-size: 45px;
+	font-weight:lighter;
+}
+article.bella_de_index p {
+	width: 540px;
+}
+article.bella_de_index a {
+	font-family: Dekar, sans-serif;
+	font-size: 23px;
+	color: #B9A782;
+	text-decoration: none;
+}
+article.bella_de_index a:hover {
+	font-family: Dekar, sans-serif;
+	font-size: 23px;
+	color: #B9A782;
+	text-decoration: underline
+}
+/*------------------------------ /INDEX ---------------------------------*/
+/*///////////////////////////////////////////////////////////////////////*/
+
+/*--------------------------- QUEM SOMOS ---------------------------------*/
+
+header h3.titulo_quemsomos {
+	font-family: CIRPNOVA_D;
+	color: #CC9933;
+	font-size: 45px;
+	font-weight:lighter;
+	float: right;
+	font-size: 67px;
+	margin: 88px 88px 0px 0px;
+}
+
+article.quem_somos p {
+	font-family: Dekar, sans-serif;
+	width: 700px;
+	color: #A18A5B;
+	font-size: 25px;
+	margin: 35px auto 0px auto;
+	text-align: center;
+}
+
+div.imagem_quem_somos {
+	width: 627px;
+	height: 386px;
+	margin: 90px auto 90px auto;
+	background: url(../estru/imagem_quem_somos.png) no-repeat top center;
+}
+div.imagem_quem_somos:after {
+	content: url(../estru/bg_quem_somos.png);
+	position: relative;
+	top: 350px;
+	left: 175px;
+}
+
+/*--------------------------- /QUEM SOMOS ---------------------------------*/
+/*///////////////////////////////////////////////////////////////////////*/
+
+
+
+/*--------------------------- PRODUTOS ---------------------------------*/
+
+
+section#produtos_all {
+	width: 1000px;
+	margin: 0px auto 0px auto;
+}
+section#produtos_all:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0px;
+	overflow: hidden;
+}
+header h3.titulo_produtos {
+	font-family: CIRPNOVA_D;
+	color: #CC9933;
+	font-size: 45px;
+	font-weight:lighter;
+	float: right;
+	font-size: 67px;
+	margin: 88px 250px 0px 0px;
+}
+
+article.produtos p {
+	font-family: Dekar, sans-serif;
+	width: 700px;
+	color: #A18A5B;
+	font-size: 25px;
+	margin: 35px auto 0px auto;
+	text-align: center;
+}
+
+section#produtos_all figure {
+	width: 150px;
+	height: 138px;
+	float: left;
+	margin: 30px 25px 0px 15px;
+	border: 3px solid #D5A944;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-ms-border-radius: 6px;
+	-o-border-radius: 6px;
+	-webkit-border-radius: 6px;
+}
+
+section#produtos_all figure img {
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-ms-border-radius: 6px;
+	-o-border-radius: 6px;
+	-webkit-border-radius: 6px;
+}
+
+section#produtos_all div.listar_produtos {
+	height: 450px;
+	overflow: auto;
+}
+
+
+
+/*--------------------------- /PRODUTOS ---------------------------------*/
+/*///////////////////////////////////////////////////////////////////////*/
+
+/*--------------------------- DECORACOES ---------------------------------*/
+
+section#decoracoes_all {
+	width: 1000px;
+	margin: 0px auto 0px auto;
+}
+/*section#produtos_all:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0px;
+	overflow: hidden;
+}*/
+header h3.titulo_decoracoes {
+	font-family: CIRPNOVA_D;
+	color: #CC9933;
+	font-size: 45px;
+	font-weight:lighter;
+	float: right;
+	font-size: 67px;
+	margin: 88px 250px 0px 0px;
+}
+
+article.decoracoes p {
+	font-family: Dekar, sans-serif;
+	width: 700px;
+	color: #A18A5B;
+	font-size: 25px;
+	margin: 35px auto 0px auto;
+	text-align: center;
+}
+section#decoracoes_all div.listar_titulos {
+	width: 1000px;
+	margin: 60px auto 50px auto;
+	text-align: center;
+	background: url(../estru/bg_decoracoes.png) no-repeat center 390px;
+}
+section#decoracoes_all div.listar_titulos a img {
+	margin: 0px 50px 40px 50px;
+	transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out; 
+}
+section#decoracoes_all div.listar_titulos a img:hover {
+	box-shadow: 0px 0px 50px #D6AD4A;
+}
+
+
+div.videos_produtos {
+	width: 1000px;
+	height: auto;
+	border: 1px solid white;
+	margin: 35px auto 0px auto;
+}
+
+div.videos_produtos:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0px;
+	overflow: hidden;
+}
+
+div.videos_produtos article {
+	width: 450px;
+	height: 290px;
+	border: 1px solid green;
+	float: left;
+	margin: 0px 20px 0px 25px;
+}
+
+div.videos_produtos article h2 {
+	color: #CC9933;
+	font-family: Dekar, sans-serif;
+	margin: 0px 0px 10px 0px;
+}
+
+/*--------------------------- /DECORACOES ---------------------------------*/
+/*///////////////////////////////////////////////////////////////////////*/
+
+/*--------------------------- DECORACOES_LISTAGEM ---------------------------------*/
+
+section#decoracoes_listagem_all {
+	width: 1000px;
+	margin: 0px auto 0px auto;
+}
+
+header h3.titulo_listagem {
+	font-family: CIRPNOVA_D;
+	color: #CC9933;
+	font-size: 45px;
+	font-weight:lighter;
+	float: right;
+	font-size: 67px;
+	margin: 88px 250px 0px 0px;
+}
+
+article.decoracoes_listagem p {
+	font-family: Dekar, sans-serif;
+	width: 750px;
+	color: #A18A5B;
+	font-size: 25px;
+	margin: 35px auto 0px auto;
+	text-align: center;
+}
+
+section#decoracoes_listagem_all section.listar_decoracoes {
+	width: 1000px;
+	height: 450px;
+	margin: 50px auto 100px auto;
+	overflow:auto;
+}
+section#decoracoes_listagem_all section.listar_decoracoes figure {
+	width: 202px;
+	height: 185px;
+	float: left;
+	border: 3px solid #D5A944;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-ms-border-radius: 6px;
+	-o-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	margin: 0px 0px 40px 34px;
+}
+section#decoracoes_listagem_all section.listar_decoracoes figure img {
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-ms-border-radius: 6px;
+	-o-border-radius: 6px;
+	-webkit-border-radius: 6px;
+}
+/*--------------------------- /DECORACOES_LISTAGEM ---------------------------------*/
+/*///////////////////////////////////////////////////////////////////////*/
+
+
+
+/*--------------------------- /ORCAMENTOS ---------------------------------*/
+section#orcamento_all {
+	width: 1000px;
+	margin: 0px auto 0px auto;
+}
+
+header h3.titulo_orcamento {
+	font-family: CIRPNOVA_D;
+	color: #CC9933;
+	font-size: 45px;
+	font-weight:lighter;
+	float: right;
+	font-size: 67px;
+	margin: 88px 200px 0px 0px;
+}
+
+article.orcamento p {
+	font-family: Dekar, sans-serif;
+	width: 950px;
+	color: #A18A5B;
+	font-size: 25px;
+	margin: 35px auto 0px auto;
+	text-align: center;
+}
+
+section#orcamento_all div#formulario_orcamento  {
+	width: 755px;
+	margin: 50px auto 100px auto;
+}
+
+section#orcamento_all div#formulario_orcamento input {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	width: 349px;
+	height: 41px;
+	border: none;
+	border-bottom: 3px solid #D6AD4A;
+	background-color: #1C1515;	
+	color: #A18A5B;
+	font-size: 18px;
+	padding: 0px 0px 0px 5px;
+	margin: 0px 40px 13px 0px;
+	font-weight: lighter;
+}
+
+section#orcamento_all div#formulario_orcamento textarea {
+	font-family: Verdana, Geneva, sans-serif;
+	width: 349px;
+	height: 100px;
+	border: none;
+	border-bottom: 3px solid #D6AD4A;
+	background-color: #1C1515;	
+	color: #A18A5B;
+	font-size: 18px;
+	padding: 0px 0px 0px 5px;
+	font-weight: lighter;
+}
+
+section#orcamento_all div#formulario_orcamento [type="submit"] {
+	font-family: Dekar, sans-serif;
+	width: 96px;
+	height: 40px;
+	float: right;
+}
+
+/*--------------------------- /ORCAMENTOS ---------------------------------*/
+/*////////////////////////////////////////////////////////////////////////*/
+
+/*--------------------------- CONTATO ---------------------------------*/
+
+section#contato_all {
+	width: 1000px;
+	margin: 0px auto 0px auto;
+}
+
+header h3.titulo_contato{
+	font-family: CIRPNOVA_D;
+	color: #CC9933;
+	font-size: 45px;
+	font-weight:lighter;
+	float: right;
+	font-size: 67px;
+	margin: 90px 290px 0px 0px;
+}
+
+article.contato p {
+	font-family: Dekar, sans-serif;
+	width: 800px;
+	color: #A18A5B;
+	font-size: 25px;
+	margin: 30px auto 0px auto;
+	text-align: center;
+}
+
+section#contato_all div#formulario_contato  {
+	width: 950px;
+	margin: 50px auto 100px auto;
+}
+
+section#contato_all div#formulario_contato input {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	width: 349px;
+	height: 41px;
+	border: none;
+	border-bottom: 3px solid #D6AD4A;
+	background-color: #1C1515;
+	color: #A18A5B;
+	font-size: 18px;
+	padding: 0px 0px 0px 5px;
+	margin: 0px 0px 13px 0px;
+	font-weight: lighter;
+	display: block;
+}
+
+section#contato_all div#formulario_contato textarea {
+	font-family: Verdana, Geneva, sans-serif;
+	width: 349px;
+	height: 100px;
+	border: none;
+	border-bottom: 3px solid #D6AD4A;
+	background-color: #1C1515;	
+	color: #A18A5B;
+	font-size: 18px;
+	padding: 0px 0px 0px 5px;
+	font-weight: lighter;
+}
+
+section#contato_all div#formulario_contato [type="submit"] {
+	font-family: Dekar, sans-serif;
+	width: 96px;
+	height: 40px;
+	margin: 10px 0px 0px 257px;
+}
+
+section#contato_all div.end_mapa {
+	width: 495px;
+	height: 440px;
+	float: right;
+	margin: -443px 0px 0px 0px;
+}
+
+div.end_mapa div.mapa {
+	width: 495px;
+	height: 247px;
+	background: url(../estru/bg_mapa.png) no-repeat top center;
+}
+div.end_mapa div.mapa iframe {
+	margin: 55px 0px 0px 0px;
+}
+
+div.end_mapa div.end {
+	width: 380px;
+	height: 190px;
+	margin: 0px 0px 0px 70px;
+	background: url(../estru/bg_end.png) no-repeat right -45px;
+}
+
+div.end_mapa div.end h2 {
+	font-family: Dekar, sans-serif;
+	color: #C68D02;
+	font-weight: lighter;
+	font-size: 20px;
+	margin: 23px 0px 20px 0px;
+}
+div.end_mapa div.end p {
+	font-family: Dekar, sans-serif;
+	color: #A28A6E;
+	font-size: 18px; 
+}
+
+/*--------------------------- /CONTATO ---------------------------------*/
+/*////////////////////////////////////////////////////////////////////////*/
+
+/*-------------------------- FOOTER -----------------------------*/
+
+div.footer_barra {
+	width: 100%;
+	height: 43px;
+	background-color: #1C1515;
+}
+nav.footer_menu {
+	width: 1000px;
+	height: 40px;
+	margin: 0px auto 0px auto;
+}
+nav.footer_menu ul {
+	width: 540px;
+	list-style: none;
+	margin: 13px -20px 0px 0px;
+	float: right;
+}
+nav.footer_menu ul li {
+	list-style: none;
+	display: inline;
+	margin: 0px 10px 0px 0px;
+	color: #A28A6E;
+}
+
+nav.footer_menu ul li a {
+	font-family: Dekar, sans-serif;
+	color: #A28A6E;
+	text-decoration: none;
+	font-size: 16px;
+}
+nav.footer_menu ul li a:hover {
+	font-family: Dekar, sans-serif;
+	color:#C68D02;
+	text-decoration: none;
+	font-size: 16px;
+}
+nav.footer_menu ul li a.active {
+	font-family: Dekar, sans-serif;
+	color:#C68D02;
+	text-decoration: none;
+	font-size: 16px;
+}
+footer {
+	width: 1000px;
+	height: auto;
+	margin: 0px auto 0px auto;
+}
+footer .fone_end {
+	width: 230px;
+	float: left;
+	margin: 0px 100px 0px 0px;
+}
+footer h1 {
+	font-family: CIRPNOVA_D;
+	color: #CC9933;
+	font-size: 35px;
+	font-weight:lighter;
+	margin: -43px 0px 0px 35px;
+}
+footer h2 {
+	font-family: Dekar, sans-serif;
+	color: #C68D02;
+	font-weight: lighter;
+	font-size: 22px;
+	margin: 25px 0px 20px 0px;
+}
+footer p {
+	font-family: Dekar, sans-serif;
+	color: #A28A6E;
+	font-size: 20px; 
+}
+
+footer .footer_email {
+	width: 250px;
+	float: left;
+	margin: 0px 30px 0px 0px;
+}
+footer .redesocial {
+	width: 380px;
+	float: left;
+}
+
+footer .redesocial h2 {
+	font-family: Dekar, sans-serif;
+	color: #C68D02;
+	font-weight: lighter;
+	font-size: 22px;
+	margin: 25px 0px 20px 0px;
+}
+footer .redesocial p {
+	width: 375px;
+	height: 137px;
+	background-color: #666;
+}
+footer .hrs {
+	width: 400px;
+	height: 44px;
+	margin: 240px auto 0px auto;
+	text-align: center;
+}
+footer .hrs p {
+	font-size: 17px;
+	color: #A28A6E;
+	
+}
+
+
+
+

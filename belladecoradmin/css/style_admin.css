@@ -1,0 +1,244 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	background-color: #666;
+}
+
+header {
+	width: 1000px;
+	height: 60px;
+	margin: 0px auto 0px auto;
+	background-color: #999;
+}
+header h3 {
+	display: inline;
+	position: relative;
+	top: -20px;
+}
+
+header .links a {
+	color: #000;
+}
+header .links {
+	width: 400px;
+	height: 60px;
+	float: right;
+	border: 1px solid black;
+	text-align: right;
+}
+
+header .links a {
+	margin: 0px 5px 5px 0px;
+	font-size: 13px;
+	display: block;
+}
+section#all:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0px;
+	overflow: hidden;
+}
+
+section#all {
+	width: 1000px;
+	height: auto;
+	border: 1px solid black;
+	margin: 50px auto 0px auto;
+}
+
+
+section.form_galeria {
+	width: 400px;
+	margin: 0px auto 0px auto;
+	border: 1px solid black;
+	text-align: center;
+	padding: 10px;
+}
+
+section.form_galeria form label {
+	display: block;
+	color: #CCC;
+}
+
+section.form_galeria form input {
+	width: 250px;
+	height: 30px;
+	margin: 0px 0px 10px 0px;
+}
+
+section.form_galeria form select {
+	width: 250px;
+	height: 30px;
+	margin: 0px 0px 10px 0px;
+}
+
+section.form_galeria form input[type="submit"] {
+	display: block;
+	margin: 10px 0px 0px 75px;
+}
+/**/
+
+
+section.form_video {
+	width: 400px;
+	margin: 0px auto 0px auto;
+	border: 1px solid black;
+	text-align: center;
+	padding: 10px;
+}
+
+section.form_video form label {
+	display: block;
+	color: #CCC;
+}
+
+section.form_video form input {
+	width: 350px;
+	height: 30px;
+	margin: 0px 0px 10px 0px;
+}
+
+section.form_video form select {
+	width: 250px;
+	height: 30px;
+	margin: 0px 0px 10px 0px;
+}
+
+section.form_video form input[type="submit"] {
+	width: 200px;
+	display: block;
+	margin: 10px auto 0px auto;
+}
+/**/
+section#all nav {
+	width: 1000px;
+	border: 1px solid black;
+	margin: 30px 0px 0px 0px;
+	background-color: #CCC;
+}
+section#all nav ul {
+	list-style: none;
+}
+section#all nav ul li {
+	list-style: none;
+	display: inline;
+	margin: 0px 0px 0px 46px;
+}
+section#all nav ul li a {
+	list-style: none;
+	display: inline;
+	color: #000;
+	text-decoration: none;
+}
+section#all nav ul li a:hover {
+	color: #303030;
+}
+
+
+div.listar_imagens_galeria {
+	border: 2px solid #333;
+	margin: 30px 0px 0px 0px;
+}
+
+div.listar_imagens_galeria:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0px;
+	overflow: hidden;
+}
+
+div.listar_imagens_galeria figure {
+	border: 1px solid #000;
+	width: 150px;
+	float: left;
+	margin: 20px 0px 30px 39px;
+	padding: 5px;
+	
+}
+
+div.listar_imagens_galeria figcaption a {
+	color: #9F0000;
+}
+div.listar_imagens_galeria figcaption a:hover {
+	color: #FFF;
+	background-color: #F00;
+	padding: 2px 5px 2px 5px;
+}
+/**/
+
+div.listar_video {
+	border: 1px solid pink;
+	margin: 30px 0px 0px 0px;
+}
+
+div.listar_video:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0px;
+	overflow: hidden;
+}
+
+div.listar_video article {
+	border: 1px solid #000;
+	width: 450px;
+	height: 310px;
+	float: left;
+	margin: 0px 0px 0px 23px;
+	padding: 5px;
+	
+}
+
+div.listar_video span a {
+	color: #9F0000;
+}
+
+
+div.listar_banner {
+	width: 1000px;
+	margin: 50px auto 0px auto;
+	border: 1px solid white;
+	padding: 30px 0px 30px 0px;
+}
+
+div.listar_banner:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0px;
+	overflow: hidden;
+}
+
+div.listar_banner figure {
+	width: 450px;
+	height: 236px;
+	margin: 0px 0px 50px 32px;
+	border: 1px solid white;
+	float: left;
+}
+
+div.listar_banner figure figcaption a:link {
+	color: #A40000;
+}
+div.listar_banner figure figcaption a:visited {
+	color: #A40000;
+}
+
+div.listar_banner figure figcaption a:hover {
+	color: #CCC;
+	background-color: #F00;
+	padding: 3px;
+}
+
+
+/**/
